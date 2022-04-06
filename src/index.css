@@ -1,0 +1,37 @@
+/* HOJA DE ESTILOS CSS: */
+
+/* Selectores de tipo: */
+
+h1{
+    padding-top: 10px; /* Espacio de 10 px en la parte superior. */
+}
+
+button{
+    background-color: gray; /* Color del botón. */
+    border-radius: 5px; /* Borde redondeado 5 px. */
+    color: white; /* Color del texto del botón. */
+    display: inline-block; /* Fluye con los demás elementos como si fuesen una línea pero respeta el ancho, alto y márgenes verticales. */
+    font-size: 16px; /* Tamaño de la fuente. */
+    padding: 5px 10px; /* Espacio de 5 px en la parte superior e inferior y 10 px a la derecha y a la izquierda. */
+    text-align: center; /* Alineación central. */
+    text-decoration: none; /* Texto sin decoración. */
+}
+
+button:hover{
+    background-color: #262727; /* Al pasar el ratón por encima del botón, cambia de color. */
+}
+
+li{
+    text-align: justify; /* Alineación justificada. */
+}
+
+/* Selectores de ID: */
+
+#menuDerecha{
+    padding-right: 10px; /* Espacio de 10 px a la derecha. */
+}
+
+#menuIzquierda{
+    padding-left: 10px; /* Espacio de 10 px a la izquierda. */
+}
+
